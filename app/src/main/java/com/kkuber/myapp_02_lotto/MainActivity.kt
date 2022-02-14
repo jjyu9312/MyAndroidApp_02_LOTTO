@@ -8,4 +8,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
+
+    /* 로또 번호 만드는 방법 3가지
+    - MutableListOf 안에 번호가 동일하면 if문 continue
+    - MutableSetOf로 add 이용
+    - mutableListOf<Int>().apply 이용하여 list를 shuffle한 후 sublist로 6개까지만 출력
+     */
 }
