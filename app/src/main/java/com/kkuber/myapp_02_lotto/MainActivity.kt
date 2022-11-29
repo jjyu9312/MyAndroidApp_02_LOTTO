@@ -119,8 +119,8 @@ class MainActivity : AppCompatActivity() {
                 setNumberBackground(i, textView)
             }
 
-
-            Log.d("MainActivity", "initRunButton : ${list.toString()}");
+            Log.d("MainActivity", "initRunButton : ${list.toString()}")
+            Log.d("MainActivity", "initRunButton : ${list.toString()}")
         }
     }
 
