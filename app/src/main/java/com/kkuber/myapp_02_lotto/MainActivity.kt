@@ -120,7 +120,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             Log.d("MainActivity", "initRunButton : ${list.toString()}")
-            Log.d("MainActivity", "initRunButton : ${list.toString()}")
+
         }
     }
 
